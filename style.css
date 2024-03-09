@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('pexels-christian-heitz-842711.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu_icon{
+    width: 25px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+    margin-right: 50px;
+}
+
+h1{
+    font-size: 100px;
+    color: #fff;
+}
+
+p{
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+}
+
+button{
+    width: 180px;
+    padding: 12px 0;
+    font-size: 13px;
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url('roadways.jpg');
+}
+
+.card2{
+    background-image: url('seaways.jpg');
+}
+
+.card3{
+    background-image: url('hills.jpg');
+}
+
+.card4{
+    background-image: url('grassway.jpg');
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: larger;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 12px;
+    line-height: normal;
+}
